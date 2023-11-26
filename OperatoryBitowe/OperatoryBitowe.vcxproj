@@ -74,6 +74,9 @@
     <Import Project="wspolne.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Aniela\source\repos\OpenGLSolution\GoogleTest\googletest-1.14.0\googletest\include;C:\Users\Aniela\source\repos\OpenGLSolution\GoogleTest\googletest-1.14.0\googletest;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
