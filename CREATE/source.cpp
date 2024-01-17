@@ -1,5 +1,5 @@
 ﻿#include "header.h"
-
+#include <matematyka.h>
 
 /**
 * Obowi�zkowe powt�rzenie deklaracji p�l statycznych - w przypadku w�tpliwo�ci prosz� je wykomentowa� i sprawdzi�.
@@ -90,6 +90,7 @@ void  ProgramMPGK::wyswietl()
 	static GLfloat zmiana = 0.0f;
 
 	GLfloat kierunek = abs(sinf(zmiana));
+	GLfloat naRadiany(kierunek);
 	zmiana += 0.0005f;
 
 	GLfloat mJ[4][4];

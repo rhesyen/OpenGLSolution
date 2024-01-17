@@ -79,6 +79,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LibraryPath>..\Debug;..\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Aniela\source\repos\OpenGLSolution\Include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>C:\Users\Aniela\source\repos\OpenGLSolution\GoogleTest\googletest-1.14.0\googletest\include;C:\Users\Aniela\source\repos\OpenGLSolution\GoogleTest\googletest-1.14.0\googletest;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
